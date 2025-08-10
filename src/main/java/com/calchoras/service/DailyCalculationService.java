@@ -3,6 +3,8 @@ package com.calchoras.service;
 import com.calchoras.model.DailyCalculationResult;
 import com.calchoras.model.Employee;
 import com.calchoras.model.TimeEntry;
+import com.calchoras.service.interfaces.ICalculationService;
+
 import java.time.Duration;
 import java.time.LocalTime;
 
@@ -79,7 +81,7 @@ public class DailyCalculationService implements ICalculationService {
         // --- 4. Retornar o Objeto de Resultado Completo ---
 
         return new DailyCalculationResult(
-                timeEntry.getDate(),
+                timeEntry.getEntryDate(),
                 workedHours,
                 expectedHours,
                 overtimeHours,

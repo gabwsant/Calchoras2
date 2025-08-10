@@ -1,4 +1,4 @@
-package com.calchoras.service;
+package com.calchoras.service.interfaces;
 
 import com.calchoras.model.DailyCalculationResult;
 import com.calchoras.model.Employee;
