@@ -1,0 +1,8 @@
+-- Requisitos para o Sistema --
+
+1. O usuário deve poder entrar com a empresa, nome do funcionário e os horários de ponto
+   para cada dia de um mês;
+2. Os cálculos devem ser salvos em um arquivo com o nome empresa+funcionario+mes+ano;
+3. O usuário deve poder escolher em qual diretório salvar o arquivo;
+4. No arquivo, deve conter os pontos de cada dia, resultado de cada dia e no final o total para
+   o mês.
