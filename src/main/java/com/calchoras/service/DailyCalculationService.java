@@ -3,7 +3,7 @@ package com.calchoras.service;
 import com.calchoras.model.DailyCalculationResult;
 import com.calchoras.model.Employee;
 import com.calchoras.model.TimeEntry;
-import com.calchoras.service.interfaces.ICalculationService;
+import com.calchoras.service.interfaces.IDailyCalculationService;
 
 import java.time.Duration;
 import java.time.LocalTime;
@@ -13,7 +13,7 @@ import java.time.LocalTime;
  * "Stateless" significa que a classe não armazena nenhuma informação em seus campos.
  * Todos os dados necessários são passados como parâmetros para os métodos.
  */
-public class DailyCalculationService implements ICalculationService {
+public class DailyCalculationService implements IDailyCalculationService {
 
     // Como esta classe "assinou o contrato", ela é OBRIGADA a ter este método.
     // O @Override indica que estamos cumprindo uma promessa da interface.

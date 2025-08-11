@@ -4,7 +4,7 @@ import com.calchoras.model.DailyCalculationResult;
 import com.calchoras.model.Employee;
 import com.calchoras.model.TimeEntry;
 
-public interface ICalculationService {
+public interface IDailyCalculationService {
 
     /**
      * Contrato: qualquer classe que implementar esta interface
